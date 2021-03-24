@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A33B77125DE065D0028CC7B /* DatabaseUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6E425C94123004F292F /* DatabaseUtil.swift */; };
+		1A33B77225DE065D0028CC7B /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6D225C9386D004F292F /* RepoModel.swift */; };
+		1A33B77325DE065D0028CC7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26DF225C6C4D600148B12 /* ViewController.swift */; };
+		1A33B77425DE065D0028CC7B /* LCApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6C325C91F96004F292F /* LCApi.swift */; };
+		1A33B77525DE065D0028CC7B /* UIImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4D8D25C834B20086FB4D /* UIImageUtil.swift */; };
+		1A33B77625DE065D0028CC7B /* ButtonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C1B6125CADD7E0098BD8C /* ButtonUtil.swift */; };
+		1A33B77725DE065D0028CC7B /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5B25CA82C50098BD8C /* RepoTableViewCell.swift */; };
+		1A33B77825DE065D0028CC7B /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AA0B525CBE5C3008C0820 /* MainNavigationViewController.swift */; };
+		1A33B77925DE065D0028CC7B /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A644A7425CD3C1600E04006 /* UIUtilities.swift */; };
+		1A33B77A25DE065D0028CC7B /* ServerTypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26E1425C6DD2600148B12 /* ServerTypeHelper.swift */; };
+		1A33B77B25DE065D0028CC7B /* SelectRepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5625CA814D0098BD8C /* SelectRepoViewController.swift */; };
+		1A33B77C25DE065D0028CC7B /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26E0E25C6D36100148B12 /* Podfile */; };
+		1A33B77D25DE065D0028CC7B /* LocalMDFilesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA6FC925C993BA002D1C19 /* LocalMDFilesHelper.swift */; };
+		1A33B77E25DE065D0028CC7B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4D8825C832810086FB4D /* MainViewController.swift */; };
+		1A33B77F25DE065D0028CC7B /* UploadMDFilesUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA6FCD25C994BD002D1C19 /* UploadMDFilesUtil.swift */; };
+		1A33B78025DE065D0028CC7B /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26E0625C6C73C00148B12 /* Preview.swift */; };
+		1A33B78125DE065D0028CC7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26DEE25C6C4D600148B12 /* AppDelegate.swift */; };
+		1A33B78225DE065D0028CC7B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6C825C92622004F292F /* UserModel.swift */; };
+		1A33B78425DE065D0028CC7B /* LocalImagesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2D24825C85C910090916D /* LocalImagesHelper.swift */; };
+		1A33B78525DE065D0028CC7B /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA9EB6525C97A6700525F02 /* ReachabilityManager.swift */; };
+		1A33B78625DE065D0028CC7B /* UploadImagesUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6E725C94BF3004F292F /* UploadImagesUtil.swift */; };
+		1A33B78B25DE065D0028CC7B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6AD6D825C9410F004F292F /* libsqlite3.tbd */; };
+		1A33B79025DE065D0028CC7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A92FA6525CBDECE00A13D5E /* LaunchScreen.storyboard */; };
+		1A33B79125DE065D0028CC7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD26E0B25C6CA3300148B12 /* Main.storyboard */; };
+		1A33B79225DE065D0028CC7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD26DF725C6C4D800148B12 /* Assets.xcassets */; };
+		1A33B79325DE065D0028CC7B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB4D8925C832810086FB4D /* MainViewController.xib */; };
+		1A33B79425DE065D0028CC7B /* SelectRepoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5725CA814D0098BD8C /* SelectRepoViewController.xib */; };
+		1A33B79625DE065D0028CC7B /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5C25CA82C50098BD8C /* RepoTableViewCell.xib */; };
+		C4F40DA8092A53E802B203FC /* Pods_LabCam_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A33B7A025DE065D0028CC7B /* LabCam Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LabCam Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A33B7A125DE065D0028CC7B /* LabCam copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LabCam copy-Info.plist"; path = "/Volumes/other/码市/LabCam/LabCam copy-Info.plist"; sourceTree = "<absolute>"; };
+		1A4C1B5625CA814D0098BD8C /* SelectRepoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRepoViewController.swift; sourceTree = "<group>"; };
+		1A4C1B5725CA814D0098BD8C /* SelectRepoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectRepoViewController.xib; sourceTree = "<group>"; };
+		1A4C1B5B25CA82C50098BD8C /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		1A4C1B5C25CA82C50098BD8C /* RepoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoTableViewCell.xib; sourceTree = "<group>"; };
+		1A4C1B6125CADD7E0098BD8C /* ButtonUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUtil.swift; sourceTree = "<group>"; };
+		1A4C1C0925CB91E80098BD8C /* AipBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipBase.framework; path = "LabCam/Utils/aip-ocr-ios-sdk-3.0.4/lib/AipBase.framework"; sourceTree = "<group>"; };
+		1A4C1C0A25CB91E80098BD8C /* AipOcrSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AipOcrSdk.framework; path = "LabCam/Utils/aip-ocr-ios-sdk-3.0.4/lib/AipOcrSdk.framework"; sourceTree = "<group>"; };
+		1A644A7425CD3C1600E04006 /* UIUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtilities.swift; sourceTree = "<group>"; };
+		1A6AD6C325C91F96004F292F /* LCApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCApi.swift; sourceTree = "<group>"; };
+		1A6AD6C825C92622004F292F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1A6AD6D225C9386D004F292F /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		1A6AD6D525C94106004F292F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		1A6AD6D825C9410F004F292F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1A6AD6E425C94123004F292F /* DatabaseUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseUtil.swift; sourceTree = "<group>"; };
+		1A6AD6E725C94BF3004F292F /* UploadImagesUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImagesUtil.swift; sourceTree = "<group>"; };
+		1A8AA0B525CBE5C3008C0820 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
+		1A92FA6625CBDECE00A13D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AA2D24825C85C910090916D /* LocalImagesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalImagesHelper.swift; sourceTree = "<group>"; };
+		1AA9EB6525C97A6700525F02 /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		1AB7736725DFDCDA002A36ED /* LabCam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabCam-Bridging-Header.h"; sourceTree = "<group>"; };
+		1AB7736825DFDCDA002A36ED /* LabCam Dev-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LabCam Dev-Bridging-Header.h"; sourceTree = "<group>"; };
+		1ACA6FC925C993BA002D1C19 /* LocalMDFilesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalMDFilesHelper.swift; sourceTree = "<group>"; };
+		1ACA6FCD25C994BD002D1C19 /* UploadMDFilesUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadMDFilesUtil.swift; sourceTree = "<group>"; };
+		1ACB4D8825C832810086FB4D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1ACB4D8925C832810086FB4D /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		1ACB4D8D25C834B20086FB4D /* UIImageUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageUtil.swift; sourceTree = "<group>"; };
+		1AD26DEE25C6C4D600148B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AD26DF225C6C4D600148B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AD26DF725C6C4D800148B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AD26DFC25C6C4D800148B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD26E0625C6C73C00148B12 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		1AD26E0B25C6CA3300148B12 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1AD26E0E25C6D36100148B12 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1AD26E1425C6DD2600148B12 /* ServerTypeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTypeHelper.swift; sourceTree = "<group>"; };
+		3A88D6C7011A77907EFB8A1E /* Pods-LabCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam.release.xcconfig"; path = "Target Support Files/Pods-LabCam/Pods-LabCam.release.xcconfig"; sourceTree = "<group>"; };
+		51E577A81BEA4FDD974135D6 /* Pods-LabCam Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam Dev.debug.xcconfig"; path = "Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3F756972DED052ACA04D7E /* Pods_LabCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D838D4025CAA6C57523F321E /* Pods-LabCam Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam Dev.release.xcconfig"; path = "Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev.release.xcconfig"; sourceTree = "<group>"; };
+		E0BFC2049B90D95A2B1C3531 /* Pods-LabCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam.debug.xcconfig"; path = "Target Support Files/Pods-LabCam/Pods-LabCam.debug.xcconfig"; sourceTree = "<group>"; };
+		E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabCam_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A33B78725DE065D0028CC7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A33B78B25DE065D0028CC7B /* libsqlite3.tbd in Frameworks */,
+				C4F40DA8092A53E802B203FC /* Pods_LabCam_Dev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13651242279B473DD1CC7872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A4C1C0925CB91E80098BD8C /* AipBase.framework */,
+				1A4C1C0A25CB91E80098BD8C /* AipOcrSdk.framework */,
+				1A6AD6D825C9410F004F292F /* libsqlite3.tbd */,
+				1A6AD6D525C94106004F292F /* libsqlite3.0.tbd */,
+				E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */,
+				6D3F756972DED052ACA04D7E /* Pods_LabCam.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A6AD6C725C92617004F292F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A6AD6C825C92622004F292F /* UserModel.swift */,
+				1A6AD6D225C9386D004F292F /* RepoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AA2D24B25C8FAF20090916D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1AA2D24825C85C910090916D /* LocalImagesHelper.swift */,
+				1ACA6FC925C993BA002D1C19 /* LocalMDFilesHelper.swift */,
+				1ACB4D8D25C834B20086FB4D /* UIImageUtil.swift */,
+				1A644A7425CD3C1600E04006 /* UIUtilities.swift */,
+				1AD26E1425C6DD2600148B12 /* ServerTypeHelper.swift */,
+				1A6AD6C325C91F96004F292F /* LCApi.swift */,
+				1A6AD6E425C94123004F292F /* DatabaseUtil.swift */,
+				1A6AD6E725C94BF3004F292F /* UploadImagesUtil.swift */,
+				1ACA6FCD25C994BD002D1C19 /* UploadMDFilesUtil.swift */,
+				1AA9EB6525C97A6700525F02 /* ReachabilityManager.swift */,
+				1A4C1B6125CADD7E0098BD8C /* ButtonUtil.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1AA2D24C25C8FB020090916D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1AA2D24E25C8FB1C0090916D /* Views */,
+				1AD26DF225C6C4D600148B12 /* ViewController.swift */,
+				1A8AA0B525CBE5C3008C0820 /* MainNavigationViewController.swift */,
+				1ACB4D8825C832810086FB4D /* MainViewController.swift */,
+				1ACB4D8925C832810086FB4D /* MainViewController.xib */,
+				1A4C1B5625CA814D0098BD8C /* SelectRepoViewController.swift */,
+				1A4C1B5725CA814D0098BD8C /* SelectRepoViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1AA2D24E25C8FB1C0090916D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AD26E0625C6C73C00148B12 /* Preview.swift */,
+				1A4C1B5B25CA82C50098BD8C /* RepoTableViewCell.swift */,
+				1A4C1B5C25CA82C50098BD8C /* RepoTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AD26DE225C6C4D600148B12 = {
+			isa = PBXGroup;
+			children = (
+				1AD26E0E25C6D36100148B12 /* Podfile */,
+				1AD26DED25C6C4D600148B12 /* LabCam */,
+				1AD26DEC25C6C4D600148B12 /* Products */,
+				987B49A0D09BD2101A5B9E29 /* Pods */,
+				13651242279B473DD1CC7872 /* Frameworks */,
+				1A33B7A125DE065D0028CC7B /* LabCam copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD26DEC25C6C4D600148B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A33B7A025DE065D0028CC7B /* LabCam Dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AD26DED25C6C4D600148B12 /* LabCam */ = {
+			isa = PBXGroup;
+			children = (
+				1A6AD6C725C92617004F292F /* Model */,
+				1AA2D24C25C8FB020090916D /* ViewControllers */,
+				1AA2D24B25C8FAF20090916D /* Utils */,
+				1AD26DEE25C6C4D600148B12 /* AppDelegate.swift */,
+				1AB7736725DFDCDA002A36ED /* LabCam-Bridging-Header.h */,
+				1AB7736825DFDCDA002A36ED /* LabCam Dev-Bridging-Header.h */,
+				1AD26E0B25C6CA3300148B12 /* Main.storyboard */,
+				1AD26DF725C6C4D800148B12 /* Assets.xcassets */,
+				1A92FA6525CBDECE00A13D5E /* LaunchScreen.storyboard */,
+				1AD26DFC25C6C4D800148B12 /* Info.plist */,
+			);
+			path = LabCam;
+			sourceTree = "<group>";
+		};
+		987B49A0D09BD2101A5B9E29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0BFC2049B90D95A2B1C3531 /* Pods-LabCam.debug.xcconfig */,
+				3A88D6C7011A77907EFB8A1E /* Pods-LabCam.release.xcconfig */,
+				51E577A81BEA4FDD974135D6 /* Pods-LabCam Dev.debug.xcconfig */,
+				D838D4025CAA6C57523F321E /* Pods-LabCam Dev.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A33B76E25DE065D0028CC7B /* LabCam Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A33B79D25DE065D0028CC7B /* Build configuration list for PBXNativeTarget "LabCam Dev" */;
+			buildPhases = (
+				1A33B76F25DE065D0028CC7B /* [CP] Check Pods Manifest.lock */,
+				1A33B77025DE065D0028CC7B /* Sources */,
+				1A33B78725DE065D0028CC7B /* Frameworks */,
+				1A33B78F25DE065D0028CC7B /* Resources */,
+				1A33B79725DE065D0028CC7B /* [CP] Embed Pods Frameworks */,
+				1A33B79C25DE065D0028CC7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LabCam Dev";
+			productName = LabCam;
+			productReference = 1A33B7A025DE065D0028CC7B /* LabCam Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AD26DE325C6C4D600148B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					1A33B76E25DE065D0028CC7B = {
+						LastSwiftMigration = 1220;
+					};
+				};
+			};
+			buildConfigurationList = 1AD26DE625C6C4D600148B12 /* Build configuration list for PBXProject "LabCam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AD26DE225C6C4D600148B12;
+			productRefGroup = 1AD26DEC25C6C4D600148B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A33B76E25DE065D0028CC7B /* LabCam Dev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A33B78F25DE065D0028CC7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A33B79025DE065D0028CC7B /* LaunchScreen.storyboard in Resources */,
+				1A33B79125DE065D0028CC7B /* Main.storyboard in Resources */,
+				1A33B79225DE065D0028CC7B /* Assets.xcassets in Resources */,
+				1A33B79325DE065D0028CC7B /* MainViewController.xib in Resources */,
+				1A33B79425DE065D0028CC7B /* SelectRepoViewController.xib in Resources */,
+				1A33B79625DE065D0028CC7B /* RepoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A33B76F25DE065D0028CC7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LabCam Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A33B79725DE065D0028CC7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A33B79C25DE065D0028CC7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A33B77025DE065D0028CC7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A33B77125DE065D0028CC7B /* DatabaseUtil.swift in Sources */,
+				1A33B77225DE065D0028CC7B /* RepoModel.swift in Sources */,
+				1A33B77325DE065D0028CC7B /* ViewController.swift in Sources */,
+				1A33B77425DE065D0028CC7B /* LCApi.swift in Sources */,
+				1A33B77525DE065D0028CC7B /* UIImageUtil.swift in Sources */,
+				1A33B77625DE065D0028CC7B /* ButtonUtil.swift in Sources */,
+				1A33B77725DE065D0028CC7B /* RepoTableViewCell.swift in Sources */,
+				1A33B77825DE065D0028CC7B /* MainNavigationViewController.swift in Sources */,
+				1A33B77925DE065D0028CC7B /* UIUtilities.swift in Sources */,
+				1A33B77A25DE065D0028CC7B /* ServerTypeHelper.swift in Sources */,
+				1A33B77B25DE065D0028CC7B /* SelectRepoViewController.swift in Sources */,
+				1A33B77C25DE065D0028CC7B /* Podfile in Sources */,
+				1A33B77D25DE065D0028CC7B /* LocalMDFilesHelper.swift in Sources */,
+				1A33B77E25DE065D0028CC7B /* MainViewController.swift in Sources */,
+				1A33B77F25DE065D0028CC7B /* UploadMDFilesUtil.swift in Sources */,
+				1A33B78025DE065D0028CC7B /* Preview.swift in Sources */,
+				1A33B78125DE065D0028CC7B /* AppDelegate.swift in Sources */,
+				1A33B78225DE065D0028CC7B /* UserModel.swift in Sources */,
+				1A33B78425DE065D0028CC7B /* LocalImagesHelper.swift in Sources */,
+				1A33B78525DE065D0028CC7B /* ReachabilityManager.swift in Sources */,
+				1A33B78625DE065D0028CC7B /* UploadImagesUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A92FA6525CBDECE00A13D5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A92FA6625CBDECE00A13D5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A33B79E25DE065D0028CC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E577A81BEA4FDD974135D6 /* Pods-LabCam Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = HU7SCWF2RM;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "LabCam copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.11;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.dev.labcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LabCam/LabCam Dev-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A33B79F25DE065D0028CC7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D838D4025CAA6C57523F321E /* Pods-LabCam Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = HU7SCWF2RM;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "LabCam copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.11;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.dev.labcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LabCam/LabCam Dev-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AD26DFD25C6C4D800148B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AD26DFE25C6C4D800148B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A33B79D25DE065D0028CC7B /* Build configuration list for PBXNativeTarget "LabCam Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A33B79E25DE065D0028CC7B /* Debug */,
+				1A33B79F25DE065D0028CC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AD26DE625C6C4D600148B12 /* Build configuration list for PBXProject "LabCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AD26DFD25C6C4D800148B12 /* Debug */,
+				1AD26DFE25C6C4D800148B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AD26DE325C6C4D600148B12 /* Project object */;
+}
