@@ -35,6 +35,35 @@
 		1A33B79325DE065D0028CC7B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB4D8925C832810086FB4D /* MainViewController.xib */; };
 		1A33B79425DE065D0028CC7B /* SelectRepoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5725CA814D0098BD8C /* SelectRepoViewController.xib */; };
 		1A33B79625DE065D0028CC7B /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5C25CA82C50098BD8C /* RepoTableViewCell.xib */; };
+		1A6B0B252614BFE300C359C1 /* DatabaseUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6E425C94123004F292F /* DatabaseUtil.swift */; };
+		1A6B0B262614BFE300C359C1 /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6D225C9386D004F292F /* RepoModel.swift */; };
+		1A6B0B272614BFE300C359C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26DF225C6C4D600148B12 /* ViewController.swift */; };
+		1A6B0B282614BFE300C359C1 /* LCApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6C325C91F96004F292F /* LCApi.swift */; };
+		1A6B0B292614BFE300C359C1 /* UIImageUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4D8D25C834B20086FB4D /* UIImageUtil.swift */; };
+		1A6B0B2A2614BFE300C359C1 /* ButtonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C1B6125CADD7E0098BD8C /* ButtonUtil.swift */; };
+		1A6B0B2B2614BFE300C359C1 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5B25CA82C50098BD8C /* RepoTableViewCell.swift */; };
+		1A6B0B2C2614BFE300C359C1 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8AA0B525CBE5C3008C0820 /* MainNavigationViewController.swift */; };
+		1A6B0B2D2614BFE300C359C1 /* UIUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A644A7425CD3C1600E04006 /* UIUtilities.swift */; };
+		1A6B0B2E2614BFE300C359C1 /* ServerTypeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26E1425C6DD2600148B12 /* ServerTypeHelper.swift */; };
+		1A6B0B2F2614BFE300C359C1 /* SelectRepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5625CA814D0098BD8C /* SelectRepoViewController.swift */; };
+		1A6B0B302614BFE300C359C1 /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26E0E25C6D36100148B12 /* Podfile */; };
+		1A6B0B312614BFE300C359C1 /* LocalMDFilesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA6FC925C993BA002D1C19 /* LocalMDFilesHelper.swift */; };
+		1A6B0B322614BFE300C359C1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB4D8825C832810086FB4D /* MainViewController.swift */; };
+		1A6B0B332614BFE300C359C1 /* UploadMDFilesUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA6FCD25C994BD002D1C19 /* UploadMDFilesUtil.swift */; };
+		1A6B0B342614BFE300C359C1 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26E0625C6C73C00148B12 /* Preview.swift */; };
+		1A6B0B352614BFE300C359C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD26DEE25C6C4D600148B12 /* AppDelegate.swift */; };
+		1A6B0B362614BFE300C359C1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6C825C92622004F292F /* UserModel.swift */; };
+		1A6B0B372614BFE300C359C1 /* LocalImagesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA2D24825C85C910090916D /* LocalImagesHelper.swift */; };
+		1A6B0B382614BFE300C359C1 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA9EB6525C97A6700525F02 /* ReachabilityManager.swift */; };
+		1A6B0B392614BFE300C359C1 /* UploadImagesUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6E725C94BF3004F292F /* UploadImagesUtil.swift */; };
+		1A6B0B3B2614BFE300C359C1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6AD6D825C9410F004F292F /* libsqlite3.tbd */; };
+		1A6B0B3C2614BFE300C359C1 /* Pods_LabCam_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */; };
+		1A6B0B3E2614BFE300C359C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A92FA6525CBDECE00A13D5E /* LaunchScreen.storyboard */; };
+		1A6B0B3F2614BFE300C359C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD26E0B25C6CA3300148B12 /* Main.storyboard */; };
+		1A6B0B402614BFE300C359C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD26DF725C6C4D800148B12 /* Assets.xcassets */; };
+		1A6B0B412614BFE300C359C1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB4D8925C832810086FB4D /* MainViewController.xib */; };
+		1A6B0B422614BFE300C359C1 /* SelectRepoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5725CA814D0098BD8C /* SelectRepoViewController.xib */; };
+		1A6B0B432614BFE300C359C1 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5C25CA82C50098BD8C /* RepoTableViewCell.xib */; };
 		C4F40DA8092A53E802B203FC /* Pods_LabCam_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +85,8 @@
 		1A6AD6D825C9410F004F292F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1A6AD6E425C94123004F292F /* DatabaseUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseUtil.swift; sourceTree = "<group>"; };
 		1A6AD6E725C94BF3004F292F /* UploadImagesUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImagesUtil.swift; sourceTree = "<group>"; };
+		1A6B0B492614BFE300C359C1 /* LabCam Product.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LabCam Product.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6B0B4A2614BFE400C359C1 /* LabCam Dev copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LabCam Dev copy-Info.plist"; path = "/Users/ysq/mywork/码市/LabCam/LabCam Dev copy-Info.plist"; sourceTree = "<absolute>"; };
 		1A8AA0B525CBE5C3008C0820 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		1A92FA6625CBDECE00A13D5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AA2D24825C85C910090916D /* LocalImagesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalImagesHelper.swift; sourceTree = "<group>"; };
@@ -90,6 +121,15 @@
 			files = (
 				1A33B78B25DE065D0028CC7B /* libsqlite3.tbd in Frameworks */,
 				C4F40DA8092A53E802B203FC /* Pods_LabCam_Dev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6B0B3A2614BFE300C359C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6B0B3B2614BFE300C359C1 /* libsqlite3.tbd in Frameworks */,
+				1A6B0B3C2614BFE300C359C1 /* Pods_LabCam_Dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +209,7 @@
 				987B49A0D09BD2101A5B9E29 /* Pods */,
 				13651242279B473DD1CC7872 /* Frameworks */,
 				1A33B7A125DE065D0028CC7B /* LabCam copy-Info.plist */,
+				1A6B0B4A2614BFE400C359C1 /* LabCam Dev copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				1A33B7A025DE065D0028CC7B /* LabCam Dev.app */,
+				1A6B0B492614BFE300C359C1 /* LabCam Product.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,6 +273,26 @@
 			productReference = 1A33B7A025DE065D0028CC7B /* LabCam Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1A6B0B222614BFE300C359C1 /* LabCam Product */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6B0B462614BFE300C359C1 /* Build configuration list for PBXNativeTarget "LabCam Product" */;
+			buildPhases = (
+				1A6B0B232614BFE300C359C1 /* [CP] Check Pods Manifest.lock */,
+				1A6B0B242614BFE300C359C1 /* Sources */,
+				1A6B0B3A2614BFE300C359C1 /* Frameworks */,
+				1A6B0B3D2614BFE300C359C1 /* Resources */,
+				1A6B0B442614BFE300C359C1 /* [CP] Embed Pods Frameworks */,
+				1A6B0B452614BFE300C359C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LabCam Product";
+			productName = LabCam;
+			productReference = 1A6B0B492614BFE300C359C1 /* LabCam Product.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -259,6 +321,7 @@
 			projectRoot = "";
 			targets = (
 				1A33B76E25DE065D0028CC7B /* LabCam Dev */,
+				1A6B0B222614BFE300C359C1 /* LabCam Product */,
 			);
 		};
 /* End PBXProject section */
@@ -274,6 +337,19 @@
 				1A33B79325DE065D0028CC7B /* MainViewController.xib in Resources */,
 				1A33B79425DE065D0028CC7B /* SelectRepoViewController.xib in Resources */,
 				1A33B79625DE065D0028CC7B /* RepoTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6B0B3D2614BFE300C359C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6B0B3E2614BFE300C359C1 /* LaunchScreen.storyboard in Resources */,
+				1A6B0B3F2614BFE300C359C1 /* Main.storyboard in Resources */,
+				1A6B0B402614BFE300C359C1 /* Assets.xcassets in Resources */,
+				1A6B0B412614BFE300C359C1 /* MainViewController.xib in Resources */,
+				1A6B0B422614BFE300C359C1 /* SelectRepoViewController.xib in Resources */,
+				1A6B0B432614BFE300C359C1 /* RepoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +412,62 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1A6B0B232614BFE300C359C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LabCam Dev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A6B0B442614BFE300C359C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A6B0B452614BFE300C359C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -367,6 +499,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A6B0B242614BFE300C359C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6B0B252614BFE300C359C1 /* DatabaseUtil.swift in Sources */,
+				1A6B0B262614BFE300C359C1 /* RepoModel.swift in Sources */,
+				1A6B0B272614BFE300C359C1 /* ViewController.swift in Sources */,
+				1A6B0B282614BFE300C359C1 /* LCApi.swift in Sources */,
+				1A6B0B292614BFE300C359C1 /* UIImageUtil.swift in Sources */,
+				1A6B0B2A2614BFE300C359C1 /* ButtonUtil.swift in Sources */,
+				1A6B0B2B2614BFE300C359C1 /* RepoTableViewCell.swift in Sources */,
+				1A6B0B2C2614BFE300C359C1 /* MainNavigationViewController.swift in Sources */,
+				1A6B0B2D2614BFE300C359C1 /* UIUtilities.swift in Sources */,
+				1A6B0B2E2614BFE300C359C1 /* ServerTypeHelper.swift in Sources */,
+				1A6B0B2F2614BFE300C359C1 /* SelectRepoViewController.swift in Sources */,
+				1A6B0B302614BFE300C359C1 /* Podfile in Sources */,
+				1A6B0B312614BFE300C359C1 /* LocalMDFilesHelper.swift in Sources */,
+				1A6B0B322614BFE300C359C1 /* MainViewController.swift in Sources */,
+				1A6B0B332614BFE300C359C1 /* UploadMDFilesUtil.swift in Sources */,
+				1A6B0B342614BFE300C359C1 /* Preview.swift in Sources */,
+				1A6B0B352614BFE300C359C1 /* AppDelegate.swift in Sources */,
+				1A6B0B362614BFE300C359C1 /* UserModel.swift in Sources */,
+				1A6B0B372614BFE300C359C1 /* LocalImagesHelper.swift in Sources */,
+				1A6B0B382614BFE300C359C1 /* ReachabilityManager.swift in Sources */,
+				1A6B0B392614BFE300C359C1 /* UploadImagesUtil.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -389,7 +549,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = HU7SCWF2RM;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "LabCam copy-Info.plist";
@@ -398,7 +558,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.11;
+				MARKETING_VERSION = 1.0.14;
 				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.dev.labcam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LabCam/LabCam Dev-Bridging-Header.h";
@@ -416,7 +576,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = HU7SCWF2RM;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "LabCam copy-Info.plist";
@@ -425,7 +585,60 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.11;
+				MARKETING_VERSION = 1.0.14;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.dev.labcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LabCam/LabCam Dev-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A6B0B472614BFE300C359C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E577A81BEA4FDD974135D6 /* Pods-LabCam Dev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = HU7SCWF2RM;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "LabCam Dev copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.14;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.dev.labcam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LabCam/LabCam Dev-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6B0B482614BFE300C359C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D838D4025CAA6C57523F321E /* Pods-LabCam Dev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 22;
+				DEVELOPMENT_TEAM = HU7SCWF2RM;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "LabCam Dev copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.14;
 				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.dev.labcam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LabCam/LabCam Dev-Bridging-Header.h";
@@ -562,6 +775,15 @@
 			buildConfigurations = (
 				1A33B79E25DE065D0028CC7B /* Debug */,
 				1A33B79F25DE065D0028CC7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6B0B462614BFE300C359C1 /* Build configuration list for PBXNativeTarget "LabCam Product" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6B0B472614BFE300C359C1 /* Debug */,
+				1A6B0B482614BFE300C359C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

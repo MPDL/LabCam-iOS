@@ -173,7 +173,17 @@ class ViewController: UIViewController {
             }
             weakSelf.present(selectRepoVC, animated: true, completion: nil)
         } failure: {
-            hud.label.text = "Incorrect email or password"
+            guard let status = ReachabilityManager.shared.reachabilityManager?.status else {
+                hud.label.text = "Please connect to the internet"
+                hud.mode = .text
+                hud.hide(animated: true, afterDelay: 1)
+                return
+            }
+            if (status == .notReachable) {
+                hud.label.text = "Please connect to the internet"
+            } else {
+                hud.label.text = "Incorrect email or password"
+            }
             hud.mode = .text
             hud.hide(animated: true, afterDelay: 1)
         }
