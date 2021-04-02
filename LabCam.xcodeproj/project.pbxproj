@@ -263,6 +263,7 @@
 				1A33B78F25DE065D0028CC7B /* Resources */,
 				1A33B79725DE065D0028CC7B /* [CP] Embed Pods Frameworks */,
 				1A33B79C25DE065D0028CC7B /* [CP] Copy Pods Resources */,
+				1AED0FBA26172047000EE09C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -283,6 +284,7 @@
 				1A6B0B3D2614BFE300C359C1 /* Resources */,
 				1A6B0B442614BFE300C359C1 /* [CP] Embed Pods Frameworks */,
 				1A6B0B452614BFE300C359C1 /* [CP] Copy Pods Resources */,
+				1A9E8FE926171B10006D886E /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -467,6 +469,41 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		1A9E8FE926171B10006D886E /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuild_version=$(/usr/libexec/PlistBuddy -c \"Print :CFBundleVersion\" \"${INFOPLIST_FILE}\")\nif [ $build_version == '$(CURRENT_PROJECT_VERSION)' ]; then\n    build_version=${CURRENT_PROJECT_VERSION}\nfi\nbuild_version=$(($build_version + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $build_version\" \"${INFOPLIST_FILE}\"\n";
+		};
+		1AED0FBA26172047000EE09C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuild_version=$(/usr/libexec/PlistBuddy -c \"Print :CFBundleVersion\" \"${INFOPLIST_FILE}\")\nif [ $build_version == '$(CURRENT_PROJECT_VERSION)' ]; then\n    build_version=${CURRENT_PROJECT_VERSION}\nfi\nbuild_version=$(($build_version + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $build_version\" \"${INFOPLIST_FILE}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

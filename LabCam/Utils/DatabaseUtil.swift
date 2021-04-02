@@ -139,7 +139,7 @@ class DatabaseUtil {
                 self.store.put([
                     "imagePath": filePath,
                     "isUploaded": isUploaded
-                ], withId: fileName, intoTable: self.imageInfoTable)
+                ], withId: fileName, intoTable: self.mdFileInfoTable)
                 return
             }
         }
