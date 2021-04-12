@@ -57,17 +57,18 @@
 		1A6B0B382614BFE300C359C1 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA9EB6525C97A6700525F02 /* ReachabilityManager.swift */; };
 		1A6B0B392614BFE300C359C1 /* UploadImagesUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6AD6E725C94BF3004F292F /* UploadImagesUtil.swift */; };
 		1A6B0B3B2614BFE300C359C1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6AD6D825C9410F004F292F /* libsqlite3.tbd */; };
-		1A6B0B3C2614BFE300C359C1 /* Pods_LabCam_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */; };
 		1A6B0B3E2614BFE300C359C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A92FA6525CBDECE00A13D5E /* LaunchScreen.storyboard */; };
 		1A6B0B3F2614BFE300C359C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD26E0B25C6CA3300148B12 /* Main.storyboard */; };
 		1A6B0B402614BFE300C359C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AD26DF725C6C4D800148B12 /* Assets.xcassets */; };
 		1A6B0B412614BFE300C359C1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB4D8925C832810086FB4D /* MainViewController.xib */; };
 		1A6B0B422614BFE300C359C1 /* SelectRepoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5725CA814D0098BD8C /* SelectRepoViewController.xib */; };
 		1A6B0B432614BFE300C359C1 /* RepoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C1B5C25CA82C50098BD8C /* RepoTableViewCell.xib */; };
-		C4F40DA8092A53E802B203FC /* Pods_LabCam_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */; };
+		23F88AA5FCDE4F9DB32AA5F4 /* Pods_LabCam_Product.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD93A4E3F4CA0C1BADC970E /* Pods_LabCam_Product.framework */; };
+		C4F40DA8092A53E802B203FC /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17624DD34F3A45CBD252B9DD /* Pods-LabCam Product.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam Product.debug.xcconfig"; path = "Target Support Files/Pods-LabCam Product/Pods-LabCam Product.debug.xcconfig"; sourceTree = "<group>"; };
 		1A33B7A025DE065D0028CC7B /* LabCam Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LabCam Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A33B7A125DE065D0028CC7B /* LabCam copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LabCam copy-Info.plist"; path = "/Volumes/other/码市/LabCam/LabCam copy-Info.plist"; sourceTree = "<absolute>"; };
 		1A4C1B5625CA814D0098BD8C /* SelectRepoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRepoViewController.swift; sourceTree = "<group>"; };
@@ -107,11 +108,12 @@
 		1AD26E0E25C6D36100148B12 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1AD26E1425C6DD2600148B12 /* ServerTypeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTypeHelper.swift; sourceTree = "<group>"; };
 		3A88D6C7011A77907EFB8A1E /* Pods-LabCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam.release.xcconfig"; path = "Target Support Files/Pods-LabCam/Pods-LabCam.release.xcconfig"; sourceTree = "<group>"; };
+		4AD93A4E3F4CA0C1BADC970E /* Pods_LabCam_Product.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabCam_Product.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51E577A81BEA4FDD974135D6 /* Pods-LabCam Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam Dev.debug.xcconfig"; path = "Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev.debug.xcconfig"; sourceTree = "<group>"; };
 		6D3F756972DED052ACA04D7E /* Pods_LabCam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabCam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D838D4025CAA6C57523F321E /* Pods-LabCam Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam Dev.release.xcconfig"; path = "Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev.release.xcconfig"; sourceTree = "<group>"; };
+		DF6AE426CFE1F3BAD5E093AE /* Pods-LabCam Product.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam Product.release.xcconfig"; path = "Target Support Files/Pods-LabCam Product/Pods-LabCam Product.release.xcconfig"; sourceTree = "<group>"; };
 		E0BFC2049B90D95A2B1C3531 /* Pods-LabCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabCam.debug.xcconfig"; path = "Target Support Files/Pods-LabCam/Pods-LabCam.debug.xcconfig"; sourceTree = "<group>"; };
-		E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabCam_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A33B78B25DE065D0028CC7B /* libsqlite3.tbd in Frameworks */,
-				C4F40DA8092A53E802B203FC /* Pods_LabCam_Dev.framework in Frameworks */,
+				C4F40DA8092A53E802B203FC /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A6B0B3B2614BFE300C359C1 /* libsqlite3.tbd in Frameworks */,
-				1A6B0B3C2614BFE300C359C1 /* Pods_LabCam_Dev.framework in Frameworks */,
+				23F88AA5FCDE4F9DB32AA5F4 /* Pods_LabCam_Product.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +145,8 @@
 				1A4C1C0A25CB91E80098BD8C /* AipOcrSdk.framework */,
 				1A6AD6D825C9410F004F292F /* libsqlite3.tbd */,
 				1A6AD6D525C94106004F292F /* libsqlite3.0.tbd */,
-				E6D681F6BC44A615C41AE23D /* Pods_LabCam_Dev.framework */,
 				6D3F756972DED052ACA04D7E /* Pods_LabCam.framework */,
+				4AD93A4E3F4CA0C1BADC970E /* Pods_LabCam_Product.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -246,6 +248,8 @@
 				3A88D6C7011A77907EFB8A1E /* Pods-LabCam.release.xcconfig */,
 				51E577A81BEA4FDD974135D6 /* Pods-LabCam Dev.debug.xcconfig */,
 				D838D4025CAA6C57523F321E /* Pods-LabCam Dev.release.xcconfig */,
+				17624DD34F3A45CBD252B9DD /* Pods-LabCam Product.debug.xcconfig */,
+				DF6AE426CFE1F3BAD5E093AE /* Pods-LabCam Product.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -429,7 +433,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LabCam Dev-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LabCam Product-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -442,15 +446,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Product/Pods-LabCam Product-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Product/Pods-LabCam Product-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Product/Pods-LabCam Product-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1A6B0B452614BFE300C359C1 /* [CP] Copy Pods Resources */ = {
@@ -459,15 +463,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Product/Pods-LabCam Product-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-LabCam Product/Pods-LabCam Product-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Dev/Pods-LabCam Dev-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabCam Product/Pods-LabCam Product-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1A9E8FE926171B10006D886E /* Run Script */ = {
@@ -633,14 +637,14 @@
 		};
 		1A6B0B472614BFE300C359C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51E577A81BEA4FDD974135D6 /* Pods-LabCam Dev.debug.xcconfig */;
+			baseConfigurationReference = 17624DD34F3A45CBD252B9DD /* Pods-LabCam Product.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = HU7SCWF2RM;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = HDNJADTVNV;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "LabCam Dev copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -648,8 +652,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.15;
-				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.dev.labcam;
+				MARKETING_VERSION = 1.4.3;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.apps.labcam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LabCam/LabCam Dev-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -660,14 +664,14 @@
 		};
 		1A6B0B482614BFE300C359C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D838D4025CAA6C57523F321E /* Pods-LabCam Dev.release.xcconfig */;
+			baseConfigurationReference = DF6AE426CFE1F3BAD5E093AE /* Pods-LabCam Product.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 28;
-				DEVELOPMENT_TEAM = HU7SCWF2RM;
+				CURRENT_PROJECT_VERSION = 17;
+				DEVELOPMENT_TEAM = HDNJADTVNV;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "LabCam Dev copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -675,8 +679,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.15;
-				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.dev.labcam;
+				MARKETING_VERSION = 1.4.3;
+				PRODUCT_BUNDLE_IDENTIFIER = de.mpg.mpdl.apps.labcam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LabCam/LabCam Dev-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
