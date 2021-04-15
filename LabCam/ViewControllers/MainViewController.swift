@@ -104,8 +104,8 @@ class MainViewController: UIViewController, AVCaptureVideoDataOutputSampleBuffer
                 return
             }
             weakSelf.loadingHud?.hide(animated: true)
-            weakSelf.firstCheck = false
             weakSelf.showRepoTip(repoInfo: repoInfo)
+            weakSelf.firstCheck = false
         } failure: { [weak self] (notFound) in
             guard let weakSelf = self else {
                 return
@@ -120,20 +120,25 @@ class MainViewController: UIViewController, AVCaptureVideoDataOutputSampleBuffer
     }
     
     private func showRepoTip(repoInfo: Dictionary<String, String>) {
-        self.tipHud = MBProgressHUD.showAdded(to: self.view, animated: true)
-        self.tipHud?.offset = CGPoint(x: 0, y: UIScreen.main.bounds.height / 2.0 - 200)
-        self.tipHud?.mode = .text
-        self.tipHud?.label.numberOfLines = 0
         let imagesCount = self.db.getCurrentRepoImagesInfo().count
         if (imagesCount == 0) {
-            self.tipHud?.label.text = "Upload dir: \(repoInfo["mainRepoName"]!)\(repoInfo["p"]!) \nUpload via: \(self.db.userNetworkIsOnlyWifi() ? "Wi-Fi Only" : "Cellular")."
-            self.tipHud?.hide(animated: true, afterDelay: 2)
+            if (self.firstCheck) {
+                self.tipHud = MBProgressHUD.showAdded(to: self.view, animated: true)
+                self.tipHud?.offset = CGPoint(x: 0, y: UIScreen.main.bounds.height / 2.0 - 200)
+                self.tipHud?.mode = .text
+                self.tipHud?.label.numberOfLines = 0
+                self.tipHud?.label.text = "Upload dir: \(repoInfo["mainRepoName"]!)\(repoInfo["p"]!) \nUpload via: \(self.db.userNetworkIsOnlyWifi() ? "Wi-Fi Only" : "Cellular")."
+                self.tipHud?.hide(animated: true, afterDelay: 2)
+            }
         } else {
             let userOnlyWifi = self.db.userNetworkIsOnlyWifi()
             guard let status = ReachabilityManager.shared.reachabilityManager?.status else {
-                self.tipHud?.label.text = "\(imagesCount) items will upload to \(repoInfo["mainRepoName"]!)\(repoInfo["p"]!) when connected to Wi-Fi."
                 return
             }
+            self.tipHud = MBProgressHUD.showAdded(to: self.view, animated: true)
+            self.tipHud?.offset = CGPoint(x: 0, y: UIScreen.main.bounds.height / 2.0 - 200)
+            self.tipHud?.mode = .text
+            self.tipHud?.label.numberOfLines = 0
             if (status == .notReachable) {
                 self.tipHud?.label.text = "\(imagesCount) items will upload to \(repoInfo["mainRepoName"]!)\(repoInfo["p"]!) when connected to the Internet."
             } else if (userOnlyWifi && status == .reachable(.cellular)) {
